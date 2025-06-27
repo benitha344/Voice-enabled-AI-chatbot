@@ -1,0 +1,97 @@
+{
+"intents": [
+{
+"tag": "greeting",
+"patterns": ["Hi", "Hello", "Good morning", "Hey there"],
+"responses": ["Hi! How can I help you with RIT information?", "Hello! Ask me anything about Ramco Institute of Technology."]
+},
+{
+"tag": "about_college",
+"patterns": ["Tell me about RIT", "What is Ramco Institute of Technology?", "About your college"],
+"responses": ["Ramco Institute of Technology in Rajapalayam focuses on high-quality, affordable engineering education under the Ramco Group. It offers several UG and PG engineering programs."]
+},
+{
+"tag": "admission_process",
+"patterns": ["How to apply?", "Admission process", "Eligibility and admission"],
+"responses": ["Admissions through Anna University Counselling (TNEA) for 65% seats and 35% management quota. You can also apply using our online portal."]
+},
+{
+"tag": "fee_structure",
+"patterns": ["What's the fee", "Fee structure", "Tuition fees"],
+"responses": ["Fees follow TN Govt norms: Government quota lower than Management quota. Exact details are in the admission brochure or on our finance office."]
+},
+{
+"tag": "placement",
+"patterns": ["Placement details", "Campus placement", "Do you have placements?"],
+"responses": ["Yes, we have an active placement cell. We have MoUs with Ramco Systems, TVS, Zoho, etc. Hosts training, industry visits, and guest lectures."]
+},
+{
+"tag": "dept_civil",
+"patterns": ["Tell me about Civil department", "Civil Engineering details", "Who is HOD of Civil?"],
+"responses": ["🛠️ Civil Engineering\nHead: Dr. S. Dharmar (Professor & HoD)\nFaculty:\n- Dr. G. Karthikeyan (Assoc Prof)\n- Dr. M. Indhumathi (Assoc Prof)\n- Dr. T. Chockalingam (Assoc Prof Gr I)\n- Mrs. C. Subha (Asst Prof SG)\n- Mrs. R. Kalaimani, Mr. R. Muruganantham, Mr. A. Manicka Mamallan,\n  Mrs. A. Leema Margret, Mr. V. Ragavan,\n  Mrs. B. Bharani Baanu, Mr. V. Jeevanantham\n- Er. B. Muthukumarasamy (Adjunct)\n\nFounded 2013, UG B.E. Civil (60 intake), labs: Surveying, Soil, Hydraulic, BIM/ICS CoE. Anna Univ. R&D centre (Jan 2024). Active ICI/IE(I) student chapters. Industry MoUs and value-added courses."]
+},
+{
+"tag": "dept_mechanical",
+"patterns": ["Mechanical Engineering department", "Who is HOD of Mechanical?", "Tell me about Mechanical faculty"],
+"responses": ["🔧 Mechanical Engineering\nHead: Dr. S. Rajakarunakaran (Vice Principal & Prof & HoD)\nFaculty (select):\n- Dr. P. Sureshkumar (Assoc Prof)\n- Dr. M. Lakshmanan (Asst Prof SG)\n- Dr. V. Sivakumar (Assoc Prof)\n- Dr. J. Jerold John Britto, Dr. S. Maharajan, Mr. M. Sivagaminathan,\n  Mr. M. Ashok Kumar, Mr. S. Valai Ganesh,\n  Mr. C. Gururaj, Mr. L. Karthikeyan,\n  Dr. R. Arun Kumar, Mr. R. Venkatesh,\n  Mr. R. Prabhakaran, Mr. M. Ramar"]
+},
+{
+"tag": "dept_ece",
+"patterns": ["Tell me about ECE department", "HOD of Electronics and Communication", "ECE faculty details"],
+"responses": ["📡 Electronics & Communication Engineering\nHead: Dr. C. Arunachala Perumal (Prof & HoD)\nOffers labs, workshops, guest lectures, recorded video lectures & journals."]
+},
+{
+"tag": "dept_cse",
+"patterns": ["Computer Science department", "HOD of CSE", "Tell me about CSE faculty"],
+"responses": ["💻 Computer Science & Engineering (CSE)\nHead: Dr. K. Vijayalakshmi (HoD/CSE)\nDepartment organizes coding expos, seminars, and research projects."]
+},
+{
+"tag": "dept_it",
+"patterns": ["Information Technology department", "Who is HOD of IT?", "IT faculty details"],
+"responses": ["💻 Information Technology\nHead: Dr. V. Anusuya (HoD/IT)\nFaculty includes Mrs. G. Mareeswari, Mr. S. Sakkaravarthi, Mr. M. V. Balaganesh. Department conducts UI design workshops and NGO visits."]
+},
+{
+"tag": "courses_offered",
+"patterns": [
+"What are the courses offered?",
+"List the courses in RIT",
+"Which departments are available?",
+"Tell me the available courses",
+"Name the programs in your college",
+"What courses can I join?",
+"Give the list of departments",
+"Departments available in RIT"
+],
+"responses": [
+"Our college offers the following courses:\n- B.E. Computer Science and Engineering\n- B.E. Mechanical Engineering\n- B.E. Electrical and Electronics Engineering\n- B.E. Civil Engineering\n- B.E. Electronics and Communication Engineering\n- B.Tech Information Technology\n- M.E. Structural Engineering\n- M.E. Computer Science and Engineering",
+"RIT provides undergraduate and postgraduate programs:\nUG:\n1. CSE\n2. MECH\n3. ECE\n4. EEE\n5. CIVIL\n6. IT\nPG:\n1. M.E. CSE\n2. M.E. Structural",
+"The available departments are CSE, IT, ECE, EEE, MECH, CIVIL, and M.E. programs in Structural and CSE."
+]
+},
+{
+"tag": "dept_aids",
+"patterns": ["AI & Data Science department", "HOD of AI & DS", "Tell me about AI department"],
+"responses": ["🤖 Artificial Intelligence & Data Science\nHead: Info not available\nThe department offers B.Tech AI & DS, recorded lectures and active clubs."]
+},
+{
+"tag": "faculty",
+"patterns": ["Who are the faculty?", "Tell me the professors", "List faculty members", "Can I have names of department faculty"],
+"responses": ["Faculty info is available under each department tag. Try asking about a specific department like 'Who is the HOD of Civil?' or 'Tell me about Mechanical faculty'."]
+},
+{
+"tag": "student_achievements",
+"patterns": ["student achievements", "recent awards", "what students have won", "achievements of students"],
+"responses": ["🎓 Recent Student Achievements:\n- AI & DS: Hackathon finalists, national coding contests, and cultural wins\n- IT: UI/UX competitions, literature events, quiz shows\n- CSE: AIR 14 in NCAT, wins in elocution, codefests\n- ECE: Cambridge certifications, sports victories\n- Civil: Athletic and technical contest wins"]
+},
+{
+"tag": "contact",
+"patterns": ["Phone number", "Email address", "Contact RIT"],
+"responses": ["Contact us at 04563 233400 / 233401 or email rit@ritrjpm.ac.in. The campus is in North Venganallur Village, Rajapalayam – 626117, Tamil Nadu."]
+},
+{
+"tag": "goodbye",
+"patterns": ["Bye", "Goodbye", "See you later"],
+"responses": ["Goodbye! Feel free to ask anytime.", "See you!"]
+}
+]
+}
